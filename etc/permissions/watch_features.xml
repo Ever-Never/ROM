@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2015 Huami Inc.  All rights reserved. 
+
+-->
+
+<permissions>
+    <!-- Marks this device as a watch. -->
+    <feature name="android.hardware.type.watch" />
+
+    <!-- Turns on USB service, necessary for secure adb. -->
+    <feature name="android.hardware.usb.accessory" />
+
+    <!-- Enable live wallpapers -->
+    <feature name="android.software.live_wallpaper" />
+</permissions>

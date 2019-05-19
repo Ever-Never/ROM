@@ -1,0 +1,9 @@
+#!/system/bin/sh
+#
+# Script to start "wearlogger" on the device, which has a very rudimentary
+# shell.
+#
+base=/system
+export CLASSPATH=$base/framework/wearlogger.jar
+exec app_process $base/bin com.huami.watch.commands.wearlogger.WearLogger "$@"
+
